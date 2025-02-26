@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Pacifico&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1000px) {
+    .main-body{
+        margin: 0 auto;
+        max-width: 75%;
+    }
+}
+
+body {
+    background-color: #171717;
+    font-family: "Geist Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-body
+{
+    margin: 0 auto;
+    width: 56rem;
+}
+
+header {
+    padding: 2rem 0rem;
+}
+
+.sign-style-perm {
+    color: cyan;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-size: 1.25rem;
+    color: #7a7a7a;
+    transition: 1s ease;
+}
+
+li {
+    padding: 0.6275rem 0;
+}
+
+.sign-style {
+    color: #7a7a7a;
+    transition: 0.25s ease;
+}
+
+.sign-style:hover {
+    color: cyan; 
+}
+
+.main-text {
+    font-size: 1.25rem;
+}
+
+.location {
+    color: #7a7a7a;
+}
